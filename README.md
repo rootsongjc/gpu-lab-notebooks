@@ -58,7 +58,7 @@ The notebooks are **generated** from the book's chapter sources: every `## ` sec
 
 ## Contributing
 
-Each chapter carries a *Metadata Card* with a verification status. If you run a lab on Colab, please open an issue or PR with the date, driver / CUDA versions, key output values and any failure mode you hit, so the expected outputs in the book can be backfilled with real numbers.
+Expected outputs in the chapters were written against the known behaviour of the current Colab T4 image. If a notebook's real output differs noticeably, or you hit a failure mode the chapter does not list, please open an issue or PR with your driver / CUDA versions and the key output.
 
 ## License
 
